@@ -1,0 +1,285 @@
+/* common */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin: auto;
+}
+p {
+  font-family: "Honk";
+  font-size: 60px;
+}
+a {
+  text-decoration: none;
+}
+.body {
+  display: flex;
+  align-items: center;
+  /* padding: 36px 0 8px; */
+  /* background-color: pink; */
+}
+.nav ul {
+  display: flex;
+  font-size: 17px;
+}
+.nav {
+  margin-left: auto;
+}
+.main-content {
+  width: 1170px;
+  max-width: calc(100% - 48px);
+  margin-left: auto;
+  margin-right: auto;
+}
+.header {
+  /* background-color: pink; */
+  position: sticky;
+  top: -28px;
+  bottom: -28px;
+  z-index: 1000;
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+}
+
+/* header */
+.nav a {
+  padding: 8px 21px;
+  color: black;
+}
+.nav a:hover {
+  background-color: black;
+  color: white;
+  border-radius: 40px;
+}
+.signin {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin: 8px;
+  border-radius: 99px;
+  margin-left: 70px;
+}
+.media-block img {
+  height: 600px;
+  width: 450px;
+  padding-top: 16px;
+  background: cover;
+}
+.icon img {
+  width: 30px;
+}
+.label,
+.title {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.label {
+  font-weight: bold;
+}
+.item {
+  padding: 40px;
+  display: flex;
+  width: 200px;
+  height: 900px;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.content-block {
+  /* padding-left: auto; */
+}
+/* .hero-summary {
+  display: flex;
+} */
+.doanvan {
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  display: flex;
+  width: auto;
+  height: auto;
+}
+.media-block {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+.hero-summary {
+  /* background-color: blue; */
+  height: 300px;
+}
+.item {
+  height: 40px;
+}
+.cta-group .signin {
+  margin-left: auto;
+  font-style: bold;
+}
+.watch-video {
+  display: flex;
+  align-items: center;
+  /* background-color: black;
+  color: wheat;
+  border-radius: 99px;
+  width: 200px; */
+}
+.watch-video img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.media-block img {
+  background-image: transparent;
+  mix-blend-mode: multiply;
+}
+.child-eng {
+  margin-top: 200px;
+  align-items: center;
+}
+.childright img {
+  width: 500px;
+  height: 315px;
+  border-radius: 15px;
+}
+.childleft .doanvan {
+  width: 700px;
+  margin-right: 100px;
+}
+.childleft img {
+  mix-blend-mode: multiply;
+  background-image: transparent;
+  width: 200px;
+  height: 100px;
+}
+.chihuong {
+  display: flex;
+  align-items: center;
+}
+.chihuong .signin {
+  margin-top: 50px;
+}
+.AldultEnglish {
+  margin-top: 200px;
+  align-items: center;
+}
+.adultleft img {
+  width: 500px;
+  height: 315px;
+  border-radius: 15px;
+}
+.adultleft {
+  width: 700px;
+  margin-right: 150px;
+  align-items: center;
+}
+.aldultright img {
+  mix-blend-mode: multiply;
+  background-image: transparent;
+  width: 200px;
+  height: 100px;
+}
+
+.footer {
+  margin-top: 250px;
+  background-image: url(./img/background_in_space.webp);
+}
+.main-content .banner {
+  width: 1170px;
+  height: 250px;
+  margin-top: 250px;
+  margin-left: 55px;
+}
+.tieude {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tieude p {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: pink;
+  display: block;
+  width: 100px;
+}
+.tieude img {
+  height: 40px;
+  width: 40px;
+  color: #4158d0;
+  margin-left: 20px;
+}
+.phansautieude {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.footer p {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+.noidung {
+  color: pink;
+}
+.infor1 p {
+  margin-top: 25px;
+  color: white;
+}
+.infor1 .item1infor {
+  color: pink;
+}
+.infor {
+  display: flex;
+}
+.infor2 {
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+.item2infor {
+  color: pink;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+.infor2 li {
+  color: white;
+}
+.infor3con {
+  display: flex;
+}
+.infor3con img {
+  width: 30px;
+  height: 30px;
+}
+.infor3 {
+  margin-left: 200px;
+}
+.Followus {
+  color: pink;
+  font-size: 25px;
+  text-align: center;
+}
+.infor3con1 {
+  margin-right: 15px;
+}
+.infor3con2 {
+  margin-right: 15px;
+}
+.logofooter {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-left: 200px;
+}
+.footer .main-content {
+  height: 350px;
+}
